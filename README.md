@@ -60,6 +60,32 @@ Department|The employee's department
 salary|The employee's salary (U.S. dollars)
 
 ### Modeling and Evaluation
-We use logistic regression, decission tree and rendom forest model. We get 82% accuracy and 79% precision for logistic regression model. Below image is the confusion matix for logistic regression model.
+We use logistic regression and tree based model.
+
+#### Logistic Regression
+The logistic regression model achieved precision of 80%, recall of 83%, f1-score of 80% (all weighted averages), and accuracy of 83%, on the test set.
+
+#### Tree-based Machine Learning
+After conducting feature engineering, the decision tree model achieved AUC of 93.8%, precision of 87.0%, recall of 90.4%, f1-score of 88.7%, and accuracy of 96.2%, on the test set. The random forest modestly outperformed the decision tree model.
+
+
+
+Below plots shows the confusion matrix of logistic regression model and important feature of tree based model.
 
 ![Confusion Matrix for logistic regression model](https://github.com/rajmanish31/Capstone-project-Providing-data-driven-suggestions-for-HR/assets/61666590/bd47b746-600d-4c18-a811-f18ba553c413)
+
+![features_importance_decision_tree](https://github.com/rajmanish31/Capstone-project-Providing-data-driven-suggestions-for-HR/assets/61666590/29b45414-6f2c-45f8-99dd-cbeb9ae2ab41)
+
+![features_importance_random_forest](https://github.com/rajmanish31/Capstone-project-Providing-data-driven-suggestions-for-HR/assets/61666590/b53586d2-9699-4c35-a87e-2ae60b169c94)
+
+## Conclusion, Recommendations, Next Steps
+The models and the feature importances extracted from the models confirm that employees at the company are overworked.
+
+To retain employees, the following recommendations could be presented to the stakeholders:
+
+* Cap the number of projects that employees can work on.
+* Consider promoting employees who have been with the company for atleast four years, or conduct further investigation about why four-year tenured employees are so dissatisfied.
+Either reward employees for working longer hours, or don't require them to do so.
+* If employees aren't familiar with the company's overtime pay policies, inform them about this. If the expectations around workload and time off aren't explicit, make them clear.
+* Hold company-wide and within-team discussions to understand and address the company work culture, across the board and in specific contexts.
+* High evaluation scores should not be reserved for employees who work 200+ hours per month. Consider a proportionate scale for rewarding employees who contribute more/put in more effort.
