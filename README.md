@@ -78,7 +78,7 @@ Below plots shows the confusion matrix of logistic regression model and importan
 
 ![features_importance_random_forest](https://github.com/rajmanish31/Capstone-project-Providing-data-driven-suggestions-for-HR/assets/61666590/b53586d2-9699-4c35-a87e-2ae60b169c94)
 
-## Conclusion, Recommendations, Next Steps
+### Conclusion, Recommendations, Next Steps
 The models and the feature importances extracted from the models confirm that employees at the company are overworked.
 
 To retain employees, the following recommendations could be presented to the stakeholders:
