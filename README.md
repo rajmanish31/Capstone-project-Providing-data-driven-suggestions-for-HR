@@ -1,4 +1,4 @@
-# Capstone-project-Providing-data-driven-suggestions-for-HR
+# Providing Data Driven Suggestions for HR
 This capstone project is part of **Google Advanced Data Analytics Professional Certificate** course on Coursera. In this project, we use **PACE** model for data analysis taught in the course. **PACE** means **Plan, Analyse, Construct**, and **Execute**.
 
 Here are brief description about each stage:
